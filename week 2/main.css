@@ -6,3 +6,8 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+h1 {text-align: center}
+nav {background-color:royalblue}
+nav ul {widows: 200px;
+margin-left: 50%}
+nav ul li{display: inline}git push

@@ -2,7 +2,10 @@
     margin:0; 
     padding:0
 } 
-section{border:0px solid red}
+section{border:2px solid red;
+width:33%;
+padding:1%}
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -10,4 +13,4 @@ h1 {text-align: center}
 nav {background-color:royalblue}
 nav ul {widows: 200px;
 margin:0 auto}
-nav ul li{display: inline}
+nav ul li{display: inline }

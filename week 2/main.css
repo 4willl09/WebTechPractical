@@ -2,9 +2,9 @@
     margin:0; 
     padding:0
 } 
-section{border:2px solid red;
-width:33%;
-padding:1%}
+section{border:solid red;overflow:hidden;
+width:95%;
+float:none}
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -14,3 +14,35 @@ nav {background-color:royalblue}
 nav ul {widows: 200px;
 margin:0 auto}
 nav ul li{display: inline }
+
+@media(max-width:500px) {
+    body {
+       background-color:yellow;
+    }
+}
+/* Large Devices, Wide Screens */
+@media (max-width : 1200px) {
+
+}
+
+ /* Medium Devices, Desktops */
+@media (max-width : 992px) {
+
+
+}
+
+ /* Small Devices, Tablets */
+@media (max-width : 768px) {
+
+}
+
+   /* Extra Small Devices, Phones */ 
+@media (max-width : 480px) {
+
+}
+
+  
+/* Custom, iPhone Retina */ 
+@media (max-width : 320px) {
+
+}

@@ -6,3 +6,21 @@ table, th, td {
     margin: 0;
     padding: 0;
   }
+  ul li{
+      display: inline;
+      display:inline-block;
+    padding:10px;
+    }
+  h1{text-align:center}
+  *{
+      font-family: Arial, Helvetica, sans-serif
+  }
+  #about_me,#Background{
+      width:50% ;
+      float: left;
+  }
+  table.center {
+margin:0 auto
+  }
+  
+
